@@ -26,7 +26,7 @@ function memcache_status_memcache() {
   global $MEMCACHE_SERVERS, $PHP_SELF;
   $_SERVER['PHP_SELF'] = url('admin/reports/status/memcache');
   $PHP_SELF = $_SERVERS['PHP_SELF'];
-  $_SERVER['PHP_AUTH_USER'] = 'memcache';
+  $_SERVER['PHP_AUTH_USER'] = 'memcached';
   $_SERVER['PHP_AUTH_PW'] = 'password';
   $MEMCACHE_SERVERS = array_keys(variable_get('memcache_servers', array()));
 

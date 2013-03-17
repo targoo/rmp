@@ -19,7 +19,7 @@
 
 $VERSION='$Id$';
 
-define('ADMIN_USERNAME','memcached'); 	// Admin Username
+define('ADMIN_USERNAME','memcache'); 	// Admin Username
 define('ADMIN_PASSWORD','password');  	// Admin Password
 define('DATE_FORMAT','Y/m/d H:i:s');
 define('GRAPH_SIZE',200);

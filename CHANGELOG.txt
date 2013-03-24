@@ -1,4 +1,4 @@
-
+ 
 Drupal 7.21, 2013-03-06
 -----------------------
 - Allowed sites using the 'image_allow_insecure_derivatives' variable to still
